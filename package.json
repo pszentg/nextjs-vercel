@@ -3,10 +3,11 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./nextjs-dashboard/scripts/seed.js"
   },
   "dependencies": {
     "@vercel/postgres": "^0.8.0",
+    "dotenv": "^16.4.5",
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
