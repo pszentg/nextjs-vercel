@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start",
-    "seed": "node -r dotenv/config ./nextjs-dashboard/scripts/seed.js"
-  },
+  "build": "next build",
+  "dev": "next dev",
+  "seed": "node -r dotenv/config ./scripts/seed.js",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@vercel/postgres": "^0.8.0",
     "dotenv": "^16.4.5",
